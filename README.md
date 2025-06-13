@@ -27,5 +27,6 @@
   ![habitTracker](/src/img/habitTracker.png)
 
 - monthlyChart
+  chart.js를 통해 구현했습니다.
   ![monthlyChart1](/src/img/monthlyChart1.png)
   ![monthlyChart2](/src/img/monthlyChart2.png)
