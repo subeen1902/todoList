@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --lightlightgray: #f7f7f7;
+  --lightgray: #ededed;
+  --blacktext: #000000;
+  --bluetext: #6a94ff;
+  --gray: #d9d9d9;
+  --lightgraytext: #cacaca;
+  --button: #d8d8d8;
+  --darkgray: rgba(152, 152, 152, 0.5);
+}
+
+body {
+  font-family: 'Noto Sans KR', sans-serif;
+  background-color: #f9f9f9;
+}
+
+.container {
+  display: flex;
+  height: 100vh;
+}
+
+.main-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+  padding-left: 40px;
+}
+
+.sidebar {
+  width: 60px;
+  background-color: var(--lightgray);
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 1px 0 4px var(--darkgray);
+}
+
+.sidebar-icon {
+  font-size: 22px;
+  margin: 18px 0;
+  opacity: 1;
+  cursor: pointer;
+  color: var(--gray);
+}
+
+.sidebar-icon.active {
+  opacity: 1;
+  color: var(--darkgray);
+}

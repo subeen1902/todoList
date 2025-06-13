@@ -1,0 +1,115 @@
+{
+  "tags": [
+    {
+      "id": "1",
+      "name": "✨ 일상"
+    },
+    {
+      "id": "2",
+      "name": "🖥️ 공부"
+    },
+    {
+      "id": "3",
+      "name": "🏃 운동"
+    },
+    {
+      "id": "4",
+      "name": "💼 회사"
+    },
+    {
+      "id": "5",
+      "name": "💗 데이트"
+    }
+  ],
+  "habits": [
+    {
+      "id": "101",
+      "text": "공복에 물 마시기",
+      "tagId": 3,
+      "checked": false,
+      "checkedAt": "2025-01-03"
+    },
+    {
+      "id": "102",
+      "text": "영어 단어 암기",
+      "tagId": 2,
+      "checked": true,
+      "checkedAt": "2025-05-14"
+    },
+    {
+      "id": "103",
+      "text": "아침 스트레칭",
+      "tagId": 3,
+      "checked": true,
+      "checkedAt": "2025-05-14",
+      "date": "2025-05-14"
+    },
+    {
+      "id": "104",
+      "text": "명상 10분",
+      "tagId": 1,
+      "checked": false,
+      "checkedAt": "2025-05-14",
+      "date": "2025-05-14"
+    },
+    {
+      "id": "105",
+      "text": "책 10페이지 읽기",
+      "tagId": 2,
+      "checked": false,
+      "checkedAt": "2025-01-20"
+    },
+    {
+      "id": "106",
+      "text": "물 1L 마시기",
+      "tagId": 1,
+      "checked": true,
+      "checkedAt": null
+    }
+  ],
+  "todos": [
+    { "id": "1", "text": "보고서 작성", "tagId": 4, "checked": true, "date": "2025-01-10" },
+    { "id": "2", "text": "ㅇㅇ이와 약속", "tagId": 5, "checked": true, "date": "2025-01-11" },
+    { "id": "3", "text": "독서노트 작성", "tagId": 2, "checked": true, "date": "2025-01-13" },
+    { "id": "4", "text": "PT 등록하기", "tagId": 3, "checked": false, "date": "2025-01-17" },
+    { "id": "5", "text": "기념일 준비", "tagId": 5, "checked": true, "date": "2025-01-21" },
+
+    { "id": "6", "text": "DB 설계안 검토", "tagId": 4, "checked": true, "date": "2025-02-12" },
+    { "id": "7", "text": "산책 가기", "tagId": 3, "checked": true, "date": "2025-02-14" },
+    { "id": "8", "text": "스터디 정리", "tagId": 2, "checked": false, "date": "2025-02-18" },
+    { "id": "9", "text": "Vue 문서 읽기", "tagId": 2, "checked": true, "date": "2025-02-22" },
+    { "id": "10", "text": "카페 데이트", "tagId": 5, "checked": true, "date": "2025-02-26" },
+
+    { "id": "11", "text": "운동복 세탁", "tagId": 1, "checked": true, "date": "2025-03-03" },
+    { "id": "12", "text": "회의 준비", "tagId": 4, "checked": true, "date": "2025-03-06" },
+    { "id": "13", "text": "디자인 피드백", "tagId": 4, "checked": true, "date": "2025-03-10" },
+    { "id": "14", "text": "데이트 일정 조율", "tagId": 5, "checked": false, "date": "2025-03-14" },
+    { "id": "15", "text": "정리정돈", "tagId": 1, "checked": true, "date": "2025-03-18" },
+
+    { "id": "16", "text": "스프레드시트 정리", "tagId": 4, "checked": true, "date": "2025-04-01" },
+    { "id": "17", "text": "운동 루틴 리셋", "tagId": 3, "checked": true, "date": "2025-04-04" },
+    { "id": "18", "text": "미팅 참석", "tagId": 4, "checked": true, "date": "2025-04-07" },
+    { "id": "19", "text": "채용공고 확인", "tagId": 2, "checked": false, "date": "2025-04-12" },
+    { "id": "20", "text": "이메일 정리", "tagId": 4, "checked": true, "date": "2025-04-15" },
+
+    { "id": "21", "text": "공부 계획 세우기", "tagId": 2, "checked": true, "date": "2025-05-02" },
+    { "id": "22", "text": "하루 회고", "tagId": 1, "checked": true, "date": "2025-05-05" },
+    { "id": "23", "text": "운동 다녀오기", "tagId": 3, "checked": true, "date": "2025-05-08" },
+    { "id": "24", "text": "일정 캘린더 등록", "tagId": 4, "checked": true, "date": "2025-05-12" },
+    { "id": "25", "text": "마감 확인", "tagId": 4, "checked": true, "date": "2025-05-14" },
+
+    { "id": "26", "text": "공부 계획 세우기", "tagId": 2, "checked": true, "date": "2025-06-11" },
+    { "id": "27", "text": "하루 회고", "tagId": 1, "unchecked": true, "date": "2025-06-11" },
+    { "id": "28", "text": "운동 다녀오기", "tagId": 3, "unchecked": true, "date": "2025-06-11" },
+    { "id": "29", "text": "일정 캘린더 등록", "tagId": 4, "checked": true, "date": "2025-06-11" },
+    { "id": "30", "text": "마감 확인", "tagId": 4, "unchecked": true, "date": "2025-06-114" }
+  ],
+  "users": [
+    {
+      "id": "1",
+      "userId": "subeen",
+      "password": "12345678",
+      "email": "subeen@email.com"
+    }
+  ]
+}
